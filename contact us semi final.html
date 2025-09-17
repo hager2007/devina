@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f6c300; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contact-container {
+      width: 450px;
+      padding: 30px;
+      background: #fff; 
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.2);
+      text-align: center;
+      border: 3px solid #a4353c; 
+    }
+
+    .contact-container h2 {
+      margin-bottom: 20px;
+      color: #a4353c; 
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+      width: 100%;
+      padding: 5px;
+      margin: 10px 0;
+      border: 2px solid #f6c300; 
+      border-radius: 10px;
+      outline: none;
+      font-size: 16px;
+      transition: 0.3s;
+      resize: none;
+    }
+
+    .contact-container input:focus,
+    .contact-container textarea:focus {
+      border-color: #a4353c; 
+      box-shadow: 0 0 8px rgba(164, 53, 60, 0.5);
+    }
+
+    .contact-container button {
+      width: 100%;
+      padding: 12px;
+      background: #a4353c;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .contact-container button:hover {
+      background: #f6c300; 
+      color: #a4353c;
+    }
+
+    .back-home {
+      margin-top: 15px;
+      display: block;
+      text-decoration: none;
+      background: #f6c300; 
+      color: #a4353c;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .back-home:hover {
+      background: #a4353c;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <button> <a href="semi final project.html" class="back-home">Back to Home</a></button>
+    </form>
+  </div>
+ 
+</body>
+</html>
+
+
+
+
